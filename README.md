@@ -84,7 +84,7 @@ python scripts/rpg_qa.py
 
 Here’s an example of asking questions to the RPG-LLM:
 
-![Example Query](img/screenshot_RPG-LLM.png)
+![Example Query](imgs/screenshot_RPG-LLM.png)
 
 
 ## Author
