@@ -3,8 +3,8 @@ import os
 import json
 
 # ---- CONFIG ----
-PDF_FOLDER = "../pdfs"
-OUTPUT_FILE = "../chunks.json"
+PDF_FOLDER = "pdfs"
+OUTPUT_FILE = "chunks.json"
 CHUNK_SIZE = 400   # words per chunk
 OVERLAP = 50       # overlapping words
 
