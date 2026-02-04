@@ -88,4 +88,4 @@ Here’s an example of asking questions to the RPG-LLM:
 
 
 ## Author
-Stefano Dainelli — [LinkedIn](https://www.linkedin.com/in/stefanodainelli)
+Stefano Dainelli — [LinkedIn](https://www.linkedin.com/in/stefano-dainelli)
