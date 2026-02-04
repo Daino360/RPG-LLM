@@ -5,9 +5,9 @@ import os
 import pickle
 
 # ---- CONFIG ----
-CHUNKS_FILE = "../chunks.json"
-FAISS_INDEX_FILE = "../embeddings/faiss_index.bin"
-META_FILE = "../embeddings/chunk_metadata.pkl"
+CHUNKS_FILE = "chunks.json"
+FAISS_INDEX_FILE = "embeddings/faiss_index.bin"
+META_FILE = "embeddings/chunk_metadata.pkl"
 EMBEDDING_MODEL = "all-mpnet-base-v2"  # encode chunks into embeddings
 BATCH_SIZE = 16
 
