@@ -7,3 +7,9 @@ __pycache__/
 .vscode/
 sandbox.py
 *.json
+
+# Add specific directories
+embeddings/*
+!embeddings/.gitkeep
+pdfs/*
+!pdfs/.gitkeep
