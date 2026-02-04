@@ -7,8 +7,8 @@ import re
 import torch
 
 # ---- CONFIG ----
-FAISS_INDEX_FILE = "../embeddings/faiss_index.bin"
-META_FILE = "../embeddings/chunk_metadata.pkl"
+FAISS_INDEX_FILE = "embeddings/faiss_index.bin"
+META_FILE = "embeddings/chunk_metadata.pkl"
 TOP_K = 5
 SIMILARITY_THRESHOLD = 0.35  # optional threshold for chunk relevance
 EMBEDDING_MODEL = "all-mpnet-base-v2"
@@ -18,7 +18,7 @@ LLM_MODEL = "mistralai/Mistral-7B-v0.1"
 print("Loading FAISS index...")
 index = faiss.read_index(FAISS_INDEX_FILE)
 
-with open("../chunks.json", "r", encoding="utf-8") as f:
+with open("chunks.json", "r", encoding="utf-8") as f:
     chunks_data = json.load(f)  # contains 'pdf' and 'text'
 
 print("Loading embedding model...")
