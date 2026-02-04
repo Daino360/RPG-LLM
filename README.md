@@ -80,5 +80,12 @@ python scripts/build_faiss.py
 python scripts/rpg_qa.py
 ```
 
+## Example Queries
+
+Here’s an example of asking questions to the RPG-LLM:
+
+![Example Query](img/screenshot_RPG-LLM.png)
+
+
 ## Author
 Stefano Dainelli — [LinkedIn](https://www.linkedin.com/in/stefanodainelli)
